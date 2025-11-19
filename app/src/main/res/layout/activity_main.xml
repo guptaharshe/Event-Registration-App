@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFF3E0"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ethead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Registration"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etevent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the event name"
+        android:inputType="text"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your registration no."
+        android:inputType="number"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the event category"
+        android:inputType="text"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter event date"
+        android:inputType="date"
+        android:layout_marginBottom="15dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btncheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now"/>
+
+
+
+</LinearLayout>
